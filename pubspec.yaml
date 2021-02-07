@@ -1,0 +1,60 @@
+name: zeroem_app
+description: ZeroEm is carbon emission calculation app.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.11.0
+  fl_chart: ^0.12.2
+  lottie: ^0.7.0+1
+  introduction_screen: ^1.0.9
+  image_picker:
+  uuid:
+  timeago:
+  flutter_screenutil:
+  provider:
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+   - assets/animasyon/carbon.json
+   - assets/animasyon/emission.json
+   - assets/animasyon/crbon.json
+   - assets/animasyon/carbonem.json
+   - assets/images/
+
+
+
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+
