@@ -3,6 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:zeroem_app/pie_data/pie_data.dart';
 import 'package:zeroem_app/screens/pie_chart_page.dart';
 
+//Veli Hocam, Pie Chart kullanmak istemistimm projede, "fl_chart" packageini kullandim bunun icin, 
+//ama layoutlardan dolayi istedigim performansi vermedi, o nedenle bu kodlar pafis haldedir ama Pie Chart calisiyor.
+
+
 List<PieChartSectionData> getSection(int touchedIndex) => PieData.data
     .asMap()
     .map<int, PieChartSectionData>((index, data) {
