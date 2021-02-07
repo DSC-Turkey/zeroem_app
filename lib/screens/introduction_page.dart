@@ -5,6 +5,9 @@ import 'hesaplama_ekrani.dart';
 
 void main() => runApp(Baslangic());
 
+
+// Kaydirmali Animasyonlarin oldugu ekran burasi
+
 class Baslangic extends StatelessWidget {
   List<PageViewModel> getPages() {
     return [
@@ -51,6 +54,9 @@ class Baslangic extends StatelessWidget {
             ),
             onDone: () {
               Navigator.of(context).push(
+                
+                //Buradan Hesaplama Ekrani sayfasina yonlendiriyor
+                
                   MaterialPageRoute(builder: (context) => HesaplamaEkrani()));
             },
             pages: getPages(),
