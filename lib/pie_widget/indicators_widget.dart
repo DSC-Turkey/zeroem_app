@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:zeroem_app/pie_data/pie_data.dart';
 
+
+
+//Veli Hocam, Pie Chart kullanmak istemistimm projede, "fl_chart" packageini kullandim bunun icin, 
+//ama layoutlardan dolayi istedigim performansi vermedi, o nedenle bu kodlar pafis haldedir ama Pie Chart calisiyor.
+
+
+
 class IndicatorsWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
