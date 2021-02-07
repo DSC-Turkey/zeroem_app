@@ -10,6 +10,7 @@ import 'package:zeroem_app/components/alt_button.dart';
 import 'package:zeroem_app/hesaplayici.dart';
 import 'introduction_page.dart';
 
+
 // Burasi Hesaplama ekrani , her sey burada donuyor.
 
 class HesaplamaEkrani extends StatefulWidget {
@@ -30,6 +31,8 @@ class _HesaplamaEkraniState extends State<HesaplamaEkrani> {
       appBar: AppBar(
         title: Text('ZeroEm'),
       ),
+      
+      // Acilir menunun olugu kisim burasi
       drawer: Drawer(
         child: ListView(
           children: <Widget>[
